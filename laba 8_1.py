@@ -30,6 +30,6 @@ def process_file(input_filename, output_filename):
 
 if __name__ == "__main__":
     input_filename = "input.txt"
-    output_filename = "output.txt"
+    output_filename = "output8_1.txt"
 
     process_file(input_filename, output_filename)
