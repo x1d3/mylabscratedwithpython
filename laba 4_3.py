@@ -16,3 +16,7 @@ for temp_celsius in temperatures_celsius:
     temp_kelvin = celsius_to_kelvin(temp_celsius)
     rotational_energy = (3/2) * k_boltzmann * temp_kelvin * n_moles
     print(f"При {temp_celsius}°C средняя кинетическая энергия вращения: {rotational_energy:.2e} Дж")
+    """
+15.	Определить среднюю кинетическую энергию 
+вращательного движения мо-лекул водорода, содержащихся в 1.0 моль при 10, 11, …, 20°С. 
+    """

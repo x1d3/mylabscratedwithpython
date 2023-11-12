@@ -31,3 +31,8 @@ if __name__ == "__main__":
     output_filename = "output8_2.txt"
 
     process_files(input_filename0, input_filename1, output_filename)
+"""
+15. Даны файлы input0.txt и input1.txt с одинаковым количеством строк.
+ Создайте файл output.txt, в каждой его строке запишите НОД чисел из 
+ соответ-ствующих строк input0.txt и input1.txt. 
+"""
