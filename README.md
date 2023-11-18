@@ -1,6 +1,7 @@
 # mylabscreatedwithpython
 Here is my repository with my python labs created for university lab work
-# """diff - LAB 2"""
+# <font color="green">LABA 2</font>
+
 # DESCRIPTION LAB 1
 Данный код выполняет следующие действия:
 
