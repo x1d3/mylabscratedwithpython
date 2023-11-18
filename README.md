@@ -1,4 +1,5 @@
-# mylabscreatedwithpython
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=MY+LABS+CREATED+WITH+PYTHON)](https://git.io/typing-svg)
 Here is my repository with my python labs created for university lab work
 '''diff
 # - LABA 2
