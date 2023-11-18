@@ -1,6 +1,6 @@
 # mylabscreatedwithpython
 Here is my repository with my python labs created for university lab work
-<span style="color:green">LABA 2</span>
+# <span style="color:green">LABA 2</span>
 
 # DESCRIPTION LAB 1
 Данный код выполняет следующие действия:
