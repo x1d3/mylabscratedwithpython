@@ -1,6 +1,6 @@
-# mylabscratedwithpython
+# mylabscreatedwithpython
 Here is my repository with my python labs created for university lab work
-# LAB 2
+# """diff - LAB 2"""
 # DESCRIPTION LAB 1
 Данный код выполняет следующие действия:
 
