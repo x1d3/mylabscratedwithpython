@@ -1,13 +1,14 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=MY+LABS+CREATED+WITH+PYTHON)](https://git.io/typing-svg)
- 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Here is my repository with my python labs created for university lab work 🇷🇺</h3>
-
-
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+Here is my repository with my python labs created for university lab work 🇷🇺</h3>
 # LABA 2
-
-
 # DESCRIPTION LAB 1
 Данный код выполняет следующие действия:
 
