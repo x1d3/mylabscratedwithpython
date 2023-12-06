@@ -1,37 +1,35 @@
-def find_arithmetic_progression_elements(a1, d, n):
-    elements = []
-    for i in range(2, n + 1):
-        an = a1 + (i - 1) * d
-        elements.append(an)
+def arithmetic_progression(a1, d, n):
+    # Функция для вычисления n-го элемента арифметической прогрессии по формуле an = a1 + (n-1)*d
+    return a1 + (n - 1) * d
 
+def calculate_progression_elements(a1, d):
+    # Вычисление второго, третьего, четвертого и седьмого элементов
+    elements = [arithmetic_progression(a1, d, i) for i in range(2, 8) if i != 5 if i != 6]
     return elements
 
+def get_valid_input(prompt):
+    while True:
+        try:
+            value = float(input(prompt))
+            return value
+        except ValueError:
+            print("Ошибка ввода! Пожалуйста, введите числовое значение.")
 
-while True:
-    try:
-        a1 = float(input("Введите первый элемент арифметической прогрессии (a1): "))
-        break  # Выход из цикла, если ввод корректен
-    except ValueError:
-        print("Ошибка: Введите числовое значение для a1.")
+# Входные данные с проверкой ввода
+a1 = get_valid_input("Введите первый элемент прогрессии (a1): ")
+d = get_valid_input("Введите разность прогрессии (d): ")
 
-while True:
-    try:
-        d = float(input("Введите разность (d): "))
-        break  # Выход из цикла, если ввод корректен
-    except ValueError:
-        print("Ошибка: Введите числовое значение для d.")
+# Вычисление элементов с использованием функции
+progression_elements = calculate_progression_elements(a1, d)
 
-n = 7  # Мы ищем второй, третий, четвертый и седьмой элементы, поэтому n = 7
+# Вычисление суммы элементов
+sum_of_elements = sum(progression_elements)
 
-elements = find_arithmetic_progression_elements(a1, d, n)
+# Вывод результатов
+print("Элементы прогрессии:", progression_elements)
+print(f"Сумма элементов: {sum_of_elements}")
 
-print("Второй элемент:", elements[0])
-print("Третий элемент:", elements[1])
-print("Четвертый элемент:", elements[2])
-print("Седьмой элемент:", elements[5])
 
-sum_elements = sum(elements)
-print("Сумма найденных элементов:", sum_elements)
 """
 15. 	Дана арифметическая прогрессия an,, a1 – первый ее элемент, d – разность. 
  Найти второй, третий, четвертый и седьмой элементы и их сумму. 
